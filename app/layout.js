@@ -3,7 +3,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Inter } from "next/font/google";
 import { ClerkProvider } from "@clerk/nextjs";
-import { dark, neobrutalism, shadesOfPurple } from "@clerk/themes";
+import { shadesOfPurple } from "@clerk/themes";
 
 export const metadata = {
   title: "TaskTrail",
